@@ -1,0 +1,36 @@
+main {
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+main section {
+position: absolute;
+padding: 10px 15px;
+}
+
+.proyectos-academicos {
+  top: 0;
+  left: 0;
+  transform: translate(-50% -50%);
+}
+
+.sobre-mi {
+  top: 0;
+  right: 0;
+  transform: translate(50% -50%);
+}
+
+.creador-de-contenido {
+  bottom: 0;
+  left: 0;
+  transform: translate(-50% 50%);
+}
+
+.contacto {
+  bottom: 0;
+  right: 0;
+  transform: translate(50% 50%);
+}
