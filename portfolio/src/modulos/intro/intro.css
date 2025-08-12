@@ -8,13 +8,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(177, 19, 177);
+  background: linear-gradient(90deg, #0b54ff, #3ae3e3, #0b54ff);;
   color: whitesmoke;
   z-index: 9999;
 }
 
 #intro p {
   font-family: PocketMonk, sans-serif;
+  text-shadow: 
+    -2px -2px 0 black,  
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+  letter-spacing: 10px;
 }
 
 .leftP, .rightP {
@@ -62,4 +68,8 @@
 @keyframes fadeOutAnim {
   0% { opacity: 1; visibility: visible; }
   100% { opacity: 0; visibility: hidden; }
+}
+
+header, main {
+  transition: opacity 0.8s ease;
 }

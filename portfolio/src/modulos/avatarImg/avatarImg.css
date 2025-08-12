@@ -1,6 +1,12 @@
 main img {
-  max-width: 400px;
-  max-height: 400px;
-  border-radius: 50%;
+  max-width: 320px;
+  height: 470px;
+  object-fit: cover;
+  border-radius: 20%;
   display: block;
+  z-index: 1;
+}
+
+main img.grande {
+  max-width: 400px;
 }

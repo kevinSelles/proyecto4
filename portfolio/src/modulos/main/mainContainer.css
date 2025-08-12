@@ -1,36 +1,38 @@
 main {
-  padding: 2rem;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   position: relative;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 70px);
+  padding: 0rem 1rem;
 }
 
 main section {
 position: absolute;
 padding: 10px 15px;
+width: 300px;
+z-index: 2;
 }
 
 .proyectos-academicos {
-  top: 0;
-  left: 0;
-  transform: translate(-50% -50%);
+  top: 15%;
+  left: 20%;
+  transform: translate(-50%, -50%);
 }
 
 .sobre-mi {
-  top: 0;
-  right: 0;
-  transform: translate(50% -50%);
+  top: 15%;
+  right: 20%;
+  transform: translate(50%, -50%);
 }
 
 .creador-de-contenido {
-  bottom: 0;
-  left: 0;
-  transform: translate(-50% 50%);
+  bottom: 15%;
+  left: 20%;
+  transform: translate(-50%, 50%);
 }
 
 .contacto {
-  bottom: 0;
-  right: 0;
-  transform: translate(50% 50%);
+  bottom: 15%;
+  right: 20%;
+  transform: translate(50%, 50%);
 }

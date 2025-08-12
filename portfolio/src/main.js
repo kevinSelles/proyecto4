@@ -6,8 +6,8 @@ import { getIntro } from './modulos/intro/intro';
 import { getAvatarImg } from './modulos/avatarImg/avatarImg';
 
 const header = getHeader();
-const main = getMain();
 const avatar = getAvatarImg();
+const main = getMain(avatar);
 
 document.body.appendChild(header);
 document.body.appendChild(main);

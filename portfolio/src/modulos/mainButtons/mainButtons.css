@@ -1,27 +1,28 @@
 button {
-  padding: 15px 30px;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 30px 60px;
   color: white;
   font-weight: bold;
+  font-size: 1.3rem;
   border: none;
   cursor: pointer;
-
-  /* Borde negro suave al texto para legibilidad */
   text-shadow: 
     1px 1px 2px black,
     -1px -1px 2px black;
-
-  /* Fondo degradado animable */
-  background: linear-gradient(135deg, #ff6f61, #d72631, #ffcc00, #00d4ff);
+  background: linear-gradient(135deg, #d1101d, #ffcc00, #00d4ff);
   background-size: 300% 300%;
-
-  /* Forma geométrica llamativa */
   clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
-
-  /* Animaciones combinadas */
   animation: 
     pulse 2s ease-in-out infinite,
     gradientShift 8s ease infinite,
     glow 2s ease-in-out infinite;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button:hover {

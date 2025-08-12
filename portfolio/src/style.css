@@ -12,6 +12,8 @@
   list-style: none;
 }
 
-body {
-  background-color: rgb(143, 255, 236);
+html, body {
+  background: linear-gradient(90deg, #0b54ff, #3ae3e3, #0b54ff);
+  height: 100%;
+  overflow: hidden;
 }
