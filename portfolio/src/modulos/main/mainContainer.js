@@ -1,5 +1,7 @@
 import "./mainContainer.css";
 import { getMainButtons } from "../mainButtons/mainButtons";
+import { getModal } from "../modal/modal";
+import { getSobreMi } from "../modalSobreMi/sobreMi";
 
 export function getMain(avatarImg) {
 
@@ -34,6 +36,18 @@ export function getMain(avatarImg) {
       avatarImg.src = defaultAvatarSrc;
       avatarImg.classList.remove("grande");
     });
+
+  button.addEventListener("click", () => {
+  if (sections[i].text === "Proyectos académicos") {
+    getModal(getProyectosAcademicos());
+  } else if (sections[i].text === "Creador de contenido") {
+    getModal(getCreadorContenido());
+  } else if (sections[i].text === "Sobre mí") {
+    getModal(getSobreMi());
+  } else if (sections[i].text === "Contacto") {
+    getModal(getContacto());
+  }
+});
     
     section.appendChild(button);
     main.appendChild(section);

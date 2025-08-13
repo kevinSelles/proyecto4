@@ -1,0 +1,37 @@
+.sobre-mi-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.sobre-mi-content img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+}
+
+.sobre-mi-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+  text-align: center;
+}
+
+.sobre-mi-texto h2 {
+  font-family: PocketMonk, sans-serif;
+  font-size: 2.5rem;
+  color: #0b54ff;
+  margin: 0;
+  
+}
+
+.sobre-mi-texto p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}

@@ -1,4 +1,4 @@
-main img {
+main > img {
   max-width: 320px;
   height: 470px;
   object-fit: cover;
