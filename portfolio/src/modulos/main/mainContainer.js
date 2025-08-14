@@ -2,6 +2,9 @@ import "./mainContainer.css";
 import { getMainButtons } from "../mainButtons/mainButtons";
 import { getModal } from "../modal/modal";
 import { getSobreMi } from "../modalSobreMi/sobreMi";
+import { getContacto } from "../modalContacto/contacto";
+import { getProyectosAcademicos } from "../modalProyectosAcademicos/proyectosAcademicos";
+import { getCreadorContenido } from "../modalCreadorContenidos/creadorContenidos";
 
 export function getMain(avatarImg) {
 
