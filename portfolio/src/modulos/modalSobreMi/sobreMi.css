@@ -1,11 +1,11 @@
 .sobre-mi-content {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   gap: 30px;
   width: 100%;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 .sobre-mi-content img {
@@ -20,6 +20,9 @@
   gap: 15px;
   flex: 1;
   text-align: center;
+  overflow-y: auto;
+  max-height: calc(80vh - 40px);
+  padding-right: 10px;
 }
 
 .sobre-mi-texto h2 {

@@ -1,8 +1,8 @@
 .academic-projects-content {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  gap: 30px;
+  align-items: center;
+  gap: 10px;
   width: 100%;
   box-sizing: border-box;
   padding: 20px 10px;
@@ -12,7 +12,6 @@
   max-width: 300px;
   height: auto;
   display: block;
-  padding-top: 1,5rem;
   border-radius: 50px;
 }
 
@@ -22,6 +21,8 @@
   gap: 15px;
   flex: 1;
   text-align: center;
+  max-height: calc(80vh - 40px);
+  overflow-y: auto;
 }
 
 .academic-projects-container h2 {
@@ -37,21 +38,29 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(228, 228, 228);
+  border-radius: 20px;
+  padding: 5px;
+  border: solid 3px #0b54ff;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .academic-projects-gallery > div > h3{
-  color: rgb(107, 214, 0);
-  margin-bottom: 1rem;
+  color: #0b54ff;
+  font-size: 2rem;
 }
 
 .academic-projects-gallery > div > img {
 cursor: pointer;
 transition: 0.3s ease;
-width: 100%;
+max-width: none;
+width: 80%;
+margin-top: 0.7rem;
+border-radius: 20px;
 }
 
 .academic-projects-gallery > div > img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .academic-projects-gallery > div > p {

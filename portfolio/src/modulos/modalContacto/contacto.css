@@ -1,7 +1,7 @@
 .contacto-content {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   gap: 30px;
   width: 100%;
   box-sizing: border-box;
