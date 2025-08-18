@@ -5,6 +5,8 @@ import { getSobreMi } from "../modalSobreMi/sobreMi";
 import { getContacto } from "../modalContacto/contacto";
 import { getProyectosAcademicos } from "../modalProyectosAcademicos/proyectosAcademicos";
 import { getCreadorContenido } from "../modalCreadorContenidos/creadorContenidos";
+import { getHabilidades } from "../modalHabilidades/habilidades";
+import { getExperienciaLaboral } from "../modalExperienciaLaboral/experienciaLaboral";
 
 export function getMain(avatarImg) {
 
@@ -14,10 +16,12 @@ export function getMain(avatarImg) {
     {text: "Proyectos académicos", imgSrc: "./assets/avatar-photos/proyectos-academicos.webp"},
     {text: "Creador de contenido", imgSrc: "./assets/avatar-photos/creador-contenido.webp"},
     {text: "Sobre mí", imgSrc: "./assets/avatar-photos/sobre-mi.webp"},
-    {text: "Contacto", imgSrc: "./assets/avatar-photos/contacto.webp"}
+    {text: "Contacto", imgSrc: "./assets/avatar-photos/contacto.webp"},
+    {text: "Habilidades", imgSrc: "./assets/avatar-photos/habilidades.webp"},
+    {text: "Experiencia laboral", imgSrc: "./assets/avatar-photos/experiencia-laboral.webp"}
   ];
 
-  const clases = ["proyectos-academicos", "creador-de-contenido", "sobre-mi", "contacto"];
+  const clases = ["proyectos-academicos", "creador-de-contenido", "sobre-mi", "contacto", "habilidades", "experiencia-laboral"];
   const defaultAvatarSrc = avatarImg.src;
 
   for(let i = 0; i < sections.length; i++) {
@@ -49,6 +53,10 @@ export function getMain(avatarImg) {
     getModal(getSobreMi());
   } else if (sections[i].text === "Contacto") {
     getModal(getContacto());
+  } else if (sections[i].text === "Habilidades") {
+    getModal(getHabilidades());
+  } else if (sections[i].text === "Experiencia laboral") {
+    getModal(getExperienciaLaboral());
   }
 });
     
