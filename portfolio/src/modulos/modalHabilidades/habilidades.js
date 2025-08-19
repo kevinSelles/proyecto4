@@ -16,7 +16,7 @@ export function getHabilidades() {
   mainContainer.appendChild(title);
 
   const title2 = document.createElement("h2");
-  title2.textContent = "Habilidades que estudio actualmente";
+  title2.textContent = "Aprendiendo";
 
   const skillsGallery = document.createElement("div");
   skillsGallery.classList.add("skills-gallery");

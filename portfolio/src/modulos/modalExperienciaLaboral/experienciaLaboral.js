@@ -15,7 +15,7 @@ export function getExperienciaLaboral() {
   title.textContent = "Experiencia laboral";
 
   const paragraph = document.createElement("p");
-  paragraph.textContent = "Aún no tengo experiencia laboral como programador, pero me encantaria empezar. Podrías ser tú quien me dé mi primera oportunidad";
+  paragraph.textContent = "Aún no tengo experiencia laboral como programador, pero me encantaria empezar. Podrías ser tú quien me dé mi primera oportunidad.";
 
   mainContainer.appendChild(title);
   mainContainer.appendChild(paragraph);

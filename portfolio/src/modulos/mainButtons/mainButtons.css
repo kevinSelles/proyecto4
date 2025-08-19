@@ -19,7 +19,6 @@ main section > button {
     gradientShift 8s ease infinite,
     glow 2s ease-in-out infinite;
   position: relative;
-  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,4 +42,24 @@ main section > button:hover {
 @keyframes glow {
   0%, 100% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); }
   50% { box-shadow: 0 0 25px rgba(255, 255, 255, 0.8); }
+}
+
+@media (max-width: 999px) {
+  main section > button {
+    font-size: 1.1rem;
+    width: 80%;
+    padding: 20px 40px;
+    background-size: 200% 200%;
+    height: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  main section > button {
+    font-size: 0.9rem;
+    width: 60%;
+    
+    background-size: 150% 150%;
+    height: 45px;
+  }
 }

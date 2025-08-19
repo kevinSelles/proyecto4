@@ -11,6 +11,5 @@ const main = getMain(avatar);
 
 document.body.appendChild(header);
 document.body.appendChild(main);
-main.appendChild(avatar);
 
 getIntro(header, main);

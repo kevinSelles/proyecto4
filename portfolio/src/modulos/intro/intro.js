@@ -27,7 +27,7 @@ export function getIntro(header, main) {
       const buttons = main.querySelectorAll("button");
 
       header.style.display = "block";
-      main.style.display = "flex";
+      main.style.display = "grid";
 
       header.style.opacity = 0;
       avatar.style.opacity = 0;

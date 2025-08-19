@@ -24,12 +24,24 @@ export function getMain(avatarImg) {
   const clases = ["proyectos-academicos", "creador-de-contenido", "sobre-mi", "contacto", "habilidades", "experiencia-laboral"];
   const defaultAvatarSrc = avatarImg.src;
 
+  const buttonsLeft = document.createElement("div");
+  buttonsLeft.classList.add("buttons-container", "left");
+  const buttonsRight = document.createElement("div");
+  buttonsRight.classList.add("buttons-container", "right");
+
   for(let i = 0; i < sections.length; i++) {
 
     const section = document.createElement("section");
     section.classList.add(clases[i]);
 
     const button = getMainButtons(sections[i].text);
+    section.appendChild(button);
+
+    if(i < 3) {
+    buttonsLeft.appendChild(section);
+    } else {
+      buttonsRight.appendChild(section);
+    };
 
     button.addEventListener("mouseenter", () => {
       avatarImg.src = sections[i].imgSrc;
@@ -59,10 +71,16 @@ export function getMain(avatarImg) {
     getModal(getExperienciaLaboral());
   }
 });
-    
-    section.appendChild(button);
-    main.appendChild(section);
-  }
+
+}
+
+  const imgContainer = document.createElement("div");
+  imgContainer.classList.add("img-container");
+  imgContainer.appendChild(avatarImg);
+
+  main.appendChild(buttonsLeft);
+  main.appendChild(imgContainer);
+  main.appendChild(buttonsRight);
 
   main.style.display = "none";
 
