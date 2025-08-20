@@ -12,6 +12,7 @@
   max-width: 300px;
   height: auto;
   display: block;
+  margin-bottom: 1rem;
 }
 
 .sobre-mi-texto {
@@ -22,7 +23,7 @@
   text-align: center;
   overflow-y: auto;
   max-height: calc(80vh - 40px);
-  padding-right: 10px;
+  padding: 0 10px 20px 0;
 }
 
 .sobre-mi-texto h2 {

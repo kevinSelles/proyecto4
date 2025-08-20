@@ -32,3 +32,20 @@ header h2 {
     -1px  1px 0 black,
      1px  1px 0 black;
 }
+
+@media (max-width: 600px) {
+  
+  header {
+    height: auto;
+  }
+  
+  h1 {
+    padding: 0 1rem;
+    font-size: 3rem;
+  }
+
+  h2 {
+    padding: 0 1rem;
+    font-size: 1rem;
+  }
+}

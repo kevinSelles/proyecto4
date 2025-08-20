@@ -22,6 +22,7 @@ main section > button {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 
 main section > button:hover {
@@ -55,11 +56,26 @@ main section > button:hover {
 }
 
 @media (max-width: 768px) {
+
   main section > button {
     font-size: 0.9rem;
     width: 60%;
-    
     background-size: 150% 150%;
-    height: 45px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 520px) {
+
+  main section > button {
+    font-size: 0.8rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 435px) {
+  main section > button {
+    width: 70%;
+    font-size: 0.9rem
   }
 }

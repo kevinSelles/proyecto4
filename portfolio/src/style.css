@@ -21,3 +21,10 @@ html, body {
   height: 100%;
   overflow: hidden;
 }
+
+@media (max-width: 550px) {
+
+  body {
+    overflow-y: auto;
+  }
+}

@@ -22,6 +22,7 @@
   overflow-y: auto;
   width: 100%;
   min-width: 0;
+  margin-left: 70px;
 }
 
 .skills-container h2 {
@@ -34,12 +35,14 @@
 
 .skills-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
   gap: 20px;
+  column-gap: 5px;
+  justify-content: end;
   justify-items: center;
   align-items: start;
   margin: 1rem 0;
-  width: 100%;
+  width: 90%;
   max-width: 800px;
   box-sizing: border-box;
   flex: 1;
@@ -47,11 +50,12 @@
 
 .future-skills-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
   margin-top: 10px;
   width: 100%;
   max-width: 800px;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 .skill-content, .future-skill-content {
