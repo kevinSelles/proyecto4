@@ -39,3 +39,61 @@
   line-height: 1.5;
   font-size: 1.1rem;
 }
+
+@media (max-width: 990px) {
+
+  .experiencia-laboral-content img {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 783px) {
+
+  .experiencia-laboral-content img {
+    max-width: 200px;
+  }
+
+  .experiencia-laboral-main h2 {
+    font-size: 2rem;
+  }
+
+  .experiencia-laboral-main p {
+    font-size: 1rem;
+  }
+
+  .experiencia-laboral-content {
+    padding: 20px 10px 20px 0;
+    gap: 20px
+  }
+}
+
+@media (max-width: 633px) {
+
+  .experiencia-laboral-content img {
+    max-width: 170px;
+  }
+
+  .experiencia-laboral-main h2 {
+    font-size: 1.7rem;
+  }
+
+  .experiencia-laboral-main p {
+    font-size: 0.8rem;
+  }
+
+  .experiencia-laboral-content {
+    padding: 20px 10px 20px 0;
+    gap: 10px
+  }
+}
+
+@media (max-width: 540px) {
+
+  .experiencia-laboral-content {
+    flex-direction: column;
+  }
+
+  .experiencia-laboral-main {
+    padding: 0;
+  }
+}

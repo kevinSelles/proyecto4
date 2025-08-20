@@ -57,3 +57,72 @@
 .contacto-text a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 884px) {
+
+  .contacto-content img {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 786px) {
+
+  .contacto-text h2 {
+    font-size: 2rem;
+  }
+
+  .contacto-text li {
+    font-size: 1rem;
+  }
+
+  .contacto-text a {
+    font-size: 1rem;
+  }
+
+  .contacto-content {
+    gap: 0;
+    padding: 20px 20px 20px 0;
+  }
+}
+
+@media (max-width: 664px) {
+
+   .contacto-content img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 611px) {
+
+  .contacto-text h2 {
+    font-size: 1.7rem;
+  }
+
+  .contacto-text li {
+    font-size: 0.8rem;
+  }
+
+  .contacto-text a {
+    font-size: 0.8rem;
+  }
+
+  .contacto-content img {
+    max-width: 170px;
+  }
+}
+
+@media (max-width: 537px) {
+
+  .contacto-content {
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  .contacto-content img {
+    margin-bottom: 1rem;
+  }
+
+  .contacto-text li img {
+    margin: 0;
+  }
+}
