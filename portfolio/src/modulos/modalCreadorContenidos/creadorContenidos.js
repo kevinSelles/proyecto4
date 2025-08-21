@@ -23,8 +23,8 @@ export function getCreadorContenido() {
     {type: "image", src: "./assets/content-creator/el-nuevo-friki-facebook.webp", title: "Facebook El Nuevo Friki", alt: "Portada de la comunidad de Facebook de El Nuevo Friki", text: "Primera comunidad de El Nuevo Friki en redes sociales, creada en Facebook. Con el tiempo se convirtió en un punto de encuentro para los seguidores del blog y ha ido creciendo de forma constante en número de miembros.", link: "https://www.facebook.com/elnuevofriki.es/"},
     {type: "image", src: "./assets/content-creator/el-nuevo-friki-instagram.webp", title: "Instagram El Nuevo Friki", alt: "Imagen de perfil de El Nuevo Friki en Instagram", text: "Segunda comunidad de El Nuevo Friki, creada en Instagram con el objetivo de ampliar el círculo friki en torno al blog.", link: "https://www.instagram.com/el_nuevo_friki"},
     {type: "video", src: "https://player.vimeo.com/video/1110690885?h=67a107b85c", title: "Intro para videos de El Nuevo Friki", alt: "null", text: "Intro en video diseñada como presentación para los contenidos audiovisuales de la comunidad.", link: "null"},
-    {type: "video", src: "https://player.vimeo.com/video/1110873603?h=ef57246df3", title: "Chirigota Las Hermanitas de la Calidad", alt: "null", text: "Video de presentación producido para la chirigota Las Hermanitas de la Calidad, participante en el Carnaval de Cádiz 2023, con una original puesta en escena de monjas futboleras.", link: "null"},
-    {type: "video", src: "https://player.vimeo.com/video/1110877209?h=3593e4682d", title: "Cortometraje de la Chirigota Los Activistas Reverdes", alt: "null", text: "Cortometraje producido como presentación de la chirigota Los Activistas Reverdes, participante en el Carnaval de Cádiz 2025, con una divertida propuesta en torno a un grupo de ecologistas peculiares.", link: "null"},
+    {type: "video", src: "https://player.vimeo.com/video/1110873603?h=ef57246df3", title: "Chirigota Las Hermanitas de la Calidad", alt: "null", text: "Video de presentación producido para la chirigota Las Hermanitas de la Calidad, participante en el Carnaval de Cádiz 2023, con una original puesta en escena de monjas futboleras.", link: "null", orientation: "vertical"},
+    {type: "video", src: "https://player.vimeo.com/video/1110877209?h=3593e4682d", title: "Cortometraje de la Chirigota Los Activistas Reverdes", alt: "null", text: "Cortometraje producido como presentación de la chirigota Los Activistas Reverdes, participante en el Carnaval de Cádiz 2025, con una divertida propuesta en torno a un grupo de ecologistas peculiares.", link: "null", orientation: "vertical"},
   ];
 
   let imgVidPreview;
@@ -63,6 +63,9 @@ export function getCreadorContenido() {
       imgVidPreview = document.createElement("iframe");
       imgVidPreview.src = creation.src;
       imgVidPreview.classList.add("video-preview");
+      if (creation.orientation === "vertical") {
+      imgVidPreview.classList.add("vertical");
+      }
       imgVidPreview.setAttribute("frameborder", "0");
       imgVidPreview.setAttribute("allow", "autoplay; fullscreen; picture-in-picture");  
     }

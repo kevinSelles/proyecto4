@@ -45,7 +45,7 @@ main {
   main {
     grid-template-columns: 0.8fr minmax(240px, 280px) 0.8fr;
     gap: 16px;
-    padding: 0 1rem;
+    padding: 0 var(--size-small);
   }
 
   .buttons-container section {
@@ -62,7 +62,7 @@ main {
     gap: 0px;
     padding: 0 0.5rem;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: var(--size-small);
   }
 
   .img-container {
@@ -131,7 +131,7 @@ main {
 
   .right {
     grid-area: down;
-    margin-top: 1rem;
+    margin-top: var(--size-small);
   }
 
   section {

@@ -3,7 +3,7 @@ main section > button {
   height: 80px;
   box-sizing: border-box;
   padding: 30px 60px;
-  color: white;
+  color: var(--second-color);
   font-weight: bold;
   font-size: 1.3rem;
   border: none;

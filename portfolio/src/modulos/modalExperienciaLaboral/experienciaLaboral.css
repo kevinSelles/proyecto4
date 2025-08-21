@@ -26,9 +26,9 @@
 }
 
 .experiencia-laboral-main h2 {
-  font-family: PocketMonk, sans-serif;
-  font-size: 2.5rem;
-  color: #0b54ff;
+  font-family: var(--font-title);
+  font-size: var(--size-large);
+  color: var(--first-color);
   margin: 0;
   letter-spacing: 5px;
 }
@@ -58,7 +58,7 @@
   }
 
   .experiencia-laboral-main p {
-    font-size: 1rem;
+    font-size: var(--size-small);
   }
 
   .experiencia-laboral-content {

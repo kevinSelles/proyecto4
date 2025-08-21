@@ -15,13 +15,13 @@ export function getMain(avatarImg) {
   const sections = [
     {text: "Proyectos académicos", imgSrc: "./assets/avatar-photos/proyectos-academicos.webp"},
     {text: "Creador de contenido", imgSrc: "./assets/avatar-photos/creador-contenido.webp"},
+    {text: "Experiencia laboral", imgSrc: "./assets/avatar-photos/experiencia-laboral.webp"},
     {text: "Sobre mí", imgSrc: "./assets/avatar-photos/sobre-mi.webp"},
-    {text: "Contacto", imgSrc: "./assets/avatar-photos/contacto.webp"},
     {text: "Habilidades", imgSrc: "./assets/avatar-photos/habilidades.webp"},
-    {text: "Experiencia laboral", imgSrc: "./assets/avatar-photos/experiencia-laboral.webp"}
+    {text: "Contacto", imgSrc: "./assets/avatar-photos/contacto.webp"}
   ];
 
-  const clases = ["proyectos-academicos", "creador-de-contenido", "sobre-mi", "contacto", "habilidades", "experiencia-laboral"];
+  const clases = ["proyectos-academicos", "creador-de-contenido", "experiencia-laboral", "sobre-mi", "habilidades", "contacto"];
   const defaultAvatarSrc = avatarImg.src;
 
   const buttonsLeft = document.createElement("div");

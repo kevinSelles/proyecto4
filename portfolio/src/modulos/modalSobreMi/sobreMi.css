@@ -12,7 +12,7 @@
   max-width: 300px;
   height: auto;
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: var(--size-small);
 }
 
 .sobre-mi-texto {
@@ -27,9 +27,9 @@
 }
 
 .sobre-mi-texto h2 {
-  font-family: PocketMonk, sans-serif;
-  font-size: 2.5rem;
-  color: #0b54ff;
+  font-family: var(--font-title);
+  font-size: var(--size-large);
+  color: var(--first-color);
   margin: 0;
   letter-spacing: 5px;
 }
@@ -37,7 +37,7 @@
 .sobre-mi-texto p {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #333;
+  color: var(--third-color);
 }
 
 @media (max-width: 1000px) {
@@ -47,7 +47,7 @@
   }
 
   .sobre-mi-texto p {
-    font-size: 1rem;
+    font-size: var(--size-small);
   }
 
   .sobre-mi-content {

@@ -26,9 +26,9 @@
 }
 
 .academic-projects-container h2 {
-  font-family: PocketMonk, sans-serif;
-  font-size: 2.5rem;
-  color: #0b54ff;
+  font-family: var(--font-title);
+  font-size: var(--size-large);
+  color: var(--first-color);
   margin: 0;
   letter-spacing: 5px;
 }
@@ -40,7 +40,7 @@
 }
 
 .academic-projects-gallery div {
-  margin: 1.5rem;
+  margin: var(--size-medium);
   width: 80%;
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@
 }
 
 .academic-projects-gallery > div > h3{
-  color: white;
+  color: var(--second-color);
   font-size: 2rem;
 }
 
@@ -71,8 +71,8 @@ border-radius: 20px;
 
 .academic-projects-gallery > div > p {
   gap: 0.8rem;
-  margin: 1rem 0rem;
-  color: white;
+  margin: var(--size-small) 0rem;
+  color: var(--second-color);
   font-size: 1.1rem;
   line-height: 1.6;
 }
@@ -102,11 +102,11 @@ border-radius: 20px;
   }
 
   .academic-projects-gallery > div > h3 {
-    font-size: 1.5rem;
+    font-size: var(--size-medium);
   }
 
   .academic-projects-gallery > div > p {
-    font-size: 1rem;
+    font-size: var(--size-small);
   }
 }
 
@@ -138,7 +138,7 @@ border-radius: 20px;
 
    .academic-projects-content img {
     max-width: 170px;
-    margin-bottom: 1rem;
+    margin-bottom: var(--size-small);
   }
 
   .academic-projects-container {

@@ -7,17 +7,51 @@
   font-style: normal;
 }
 
+:root {
+  --first-color: #0b54ff;
+  --second-color: whitesmoke;
+  --third-color: #333;
+  --background-color: linear-gradient(90deg, #0b54ff, #3ae3e3, #0b54ff);
+
+  --size-large: 2.5rem;
+  --size-medium: 1.5rem;
+  --size-small: 1rem;
+
+  --font-title: PocketMonk, sans-serif;
+  --font-default: roboto, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1300be;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #d1101d, #ffcc00, #00d4ff);
+  border-radius: 10px;
+  border: 2px solid #0d0081;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--second-color), var(--first-color), var(--second-color));
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
-  font-family: roboto, sans-serif;
+  font-family: var(--font-default);
 }
 
 html, body {
-  background: linear-gradient(90deg, #0b54ff, #3ae3e3, #0b54ff);
+  background: var(--background-color);
   height: 100%;
   overflow: hidden;
 }
