@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: PocketMonk;
-  src: url("./assets/fonts/PocketMonk.ttf");
+  src: url("/assets/fonts/PocketMonk.ttf");
   font-weight: normal;
   font-style: normal;
 }
