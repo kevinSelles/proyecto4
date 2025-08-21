@@ -62,3 +62,10 @@ html, body {
     overflow-y: auto;
   }
 }
+
+@media (max-height: 560px) {
+
+  body {
+    overflow-y: auto;
+  }
+}
