@@ -38,7 +38,7 @@ export function getProyectosAcademicos() {
     const imgText = document.createElement("p");
     imgText.textContent = screenShot.text;
 
-    previewImg.addEventListener("click", () => {
+    imgContainer.addEventListener("click", () => {
       window.open(screenShot.link, "_blank");
     });
 

@@ -50,6 +50,7 @@
   padding: 15px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .academic-projects-gallery div:hover {
