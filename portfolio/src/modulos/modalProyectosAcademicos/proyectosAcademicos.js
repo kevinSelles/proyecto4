@@ -19,7 +19,7 @@ export function getProyectosAcademicos() {
   academicProjectsGallery.classList.add("academic-projects-gallery");
 
   const ScreenShots = [
-    {img: "./assets/projects/splishsplash.webp", title: "Evento Splish Splash Cádiz", text: `Web que simula un evento de verano con diferentes actividades de playa. Incluye registro y login de usuarios, conexión a una base de datos que guarda las actividades a las que los usuarios pueden apuntarse, galería de fotos con Cloudinary y un formulario para que los administradores puedan crear nuevas actividades.
+    {img: "./assets/projects/splishsplash.webp", title: "Evento Splish Splash Cádiz", text: `Web que simula un evento de verano con diferentes actividades de playa. Incluye registro y login de usuarios, conexión a una base de datos que guarda las actividades a las que los usuarios pueden apuntarse o borrarse si ya estaban apuntados, formulario de contacto, galería de fotos con Cloudinary y un formulario para que los administradores puedan publicar nuevas actividades o modificar las existentes.
 
       Tecnologías utilizadas:
       Frontend con HTML, CSS y JavaScript Vanilla.
@@ -35,7 +35,10 @@ export function getProyectosAcademicos() {
       Tecnologías utilizadas: HTML, CSS, React y JavaScript.`, alt: "Previsualizacion del proyecto Juego de cartas TV STARS Battle Cards.", link: "https://tvstarsbattle.vercel.app/"},
     {img: "./assets/projects/enciclopedia-marvel.webp", title: "Enciclopedia Marvel", text: `Enciclopedia interactiva de personajes Marvel, con filtros de búsqueda por categorías y ventanas emergentes para mostrar información más detallada de cada uno.
 
-      Tecnologías utilizadas: HTML, CSS y JavaScript Vanilla.`, alt: "Previsualización del proyecto Enciclopedia Marvel.", link: "https://enciclopediamarvel.netlify.app/"}
+      Tecnologías utilizadas: HTML, CSS y JavaScript Vanilla.`, alt: "Previsualización del proyecto Enciclopedia Marvel.", link: "https://enciclopediamarvel.netlify.app/"},
+    {img: "./assets/projects/kevinfygames.webp", title: "GamesHub", text: `Portal de juegos que contiene tres videojuegos: Simon, Trivial y Tres en Raya. Incluye contadores de puntuación y récord personal, secuencia aleatoria en cada partida de Simon y un fondo animado en la web.
+
+Tecnologías utilizadas: HTML, CSS y JavaScript Vanilla.`, alt: "Previsualización del proyecto KevinFy Games.", link: "https://kevinfygames.netlify.app/"}
   ]
 
   for(const screenShot of ScreenShots) {
