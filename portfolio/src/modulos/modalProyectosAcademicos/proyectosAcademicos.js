@@ -24,11 +24,6 @@ export function getProyectosAcademicos() {
       Tecnologías utilizadas:
       Frontend con HTML, CSS y JavaScript Vanilla.
       Backend con Node.js, Express y MongoDB Atlas.`, alt: "Previsualización del proyecto Enciclopedia Marvel.", link: "https://splish-splash-cadiz.vercel.app/"},
-    {img: "./assets/projects/comiquea.webp", title: `Comiquea
-      Web de cómics`, text: `La web es un organizador de lectura de cómics, con registro y login de usuarios que podrán dejar opiniones de cada cómic, crear listas de sus cómics favoritos, los que tienen, los leídos, los que quieren comprar... Además, también sirve como enciclopedia de cómics, ya que utiliza una base de datos cuya información crece de forma orgánica gracias a los aportes de los propios usuarios, quienes pueden añadir nuevos cómics y modificar los datos de los ya existentes.
-
-      Frontend: HTML, CSS, React y JavaScript.
-      Backend: Node.js, Express y MongoDB Atlas.`, alt: "Previsualizacion del proyecto Comiquea, la web de cómics.", link: "https://comiquea.vercel.app/"},
     {img: "./assets/projects/tvstars.webp", title: `Juego de cartas
       TV STARS Battle Cards`, text: `Videojuego de cartas que combina combate y estrategia mediante un sistema de comparación de ataque y defensa para decidir qué jugador conquista cada casilla del tablero. Incluye ilustraciones de personajes famosos y un diseño propio de cartas realizado en Canva.
 
