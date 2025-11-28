@@ -20,6 +20,7 @@ export function getProyectosAcademicos() {
 
   const ScreenShots = [
     {img: "./assets/projects/comiquea.webp", title: "Comiquea. Web de cómics", text: `La web es un organizador de lectura de cómics, con registro y login de usuarios que podrán dejar opiniones de cada cómic, crear listas de sus cómics favoritos, los que tienen, los leídos, los que quieren comprar... Además, también sirve como enciclopedia de cómics, ya que utiliza una base de datos cuya información crece de forma orgánica gracias a los aportes de los propios usuarios, quienes pueden añadir nuevos cómics y modificar los datos de los ya existentes.
+      
       Frontend: HTML, CSS, React y JavaScript.
       Backend: Node.js, Express y MongoDB Atlas.`, alt: "Previsualizacion del proyecto Comiquea, la web de cómics.", link: "https://comiquea.vercel.app/"},
     {img: "./assets/projects/pinterest-simulator.webp", title: "Simulador Pinterest", text: "Utilizando HTML, CSS y JavaScript Vanilla, desarrollo una simulación de Pinterest con botones de búsqueda funcionales y consumo de APIs externas para generar imágenes dinámicas.", alt: "Previsualizacion del proyecto Simulador de Pinterest.", link: "https://pinterestsimulator.netlify.app/"},
