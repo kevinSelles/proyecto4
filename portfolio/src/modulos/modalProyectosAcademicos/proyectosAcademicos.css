@@ -60,6 +60,7 @@
 .academic-projects-gallery > div > h3{
   color: var(--second-color);
   font-size: 2rem;
+  white-space: pre-line;
 }
 
 .academic-projects-gallery > div > img {
