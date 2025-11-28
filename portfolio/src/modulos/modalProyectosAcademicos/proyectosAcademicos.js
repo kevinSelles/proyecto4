@@ -25,8 +25,10 @@ export function getProyectosAcademicos() {
       Frontend: HTML, CSS, React y JavaScript.
       Backend: Node.js, Express y MongoDB Atlas.`, alt: "Previsualizacion del proyecto Comiquea, la web de cómics.", link: "https://comiquea.vercel.app/"},
     {img: "./assets/projects/tvstars.webp", title: `Juego de cartas
-      TV STARS Battle Cards`, text: "Utilizando HTML, CSS y JavaScript Vanilla, desarrollo una simulación de Pinterest con botones de búsqueda funcionales y consumo de APIs externas para generar imágenes dinámicas.", alt: "Previsualizacion del proyecto Simulador de Pinterest.", link: "https://tvstarsbattle.vercel.app/"},
-    {img: "./assets/projects/enciclopedia-marvel.webp", title: "Enciclopedia Marvel", text: "Utilizando HTML, CSS y JavaScript Vanilla, desarrollo una enciclopedia interactiva de personajes Marvel con filtros de búsqueda y modales emergentes para mostrar información detallada.", alt: "Previsualización del proyecto Enciclopedia Marvel.", link: "https://enciclopediamarvel.netlify.app/"}
+      TV STARS Battle Cards`, text: `Videojuego de cartas que combina combate y estrategia mediante un sistema de comparación de ataque y defensa para decidir qué jugador conquista cada casilla del tablero. Incluye ilustraciones de personajes famosos y un diseño propio de cartas realizado en Canva.
+      Tecnologías utilizadas: HTML, CSS, React y JavaScript.`, alt: "Previsualizacion del proyecto Juego de cartas TV STARS Battle Cards.", link: "https://tvstarsbattle.vercel.app/"},
+    {img: "./assets/projects/enciclopedia-marvel.webp", title: "Enciclopedia Marvel", text: `Enciclopedia interactiva de personajes Marvel, con filtros de búsqueda por categorías y ventanas emergentes para mostrar información más detallada de cada uno.
+      Tecnologías utilizadas: HTML, CSS y JavaScript Vanilla.`, alt: "Previsualización del proyecto Enciclopedia Marvel.", link: "https://enciclopediamarvel.netlify.app/"}
   ]
 
   for(const screenShot of ScreenShots) {
