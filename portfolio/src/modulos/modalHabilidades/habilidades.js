@@ -37,7 +37,6 @@ export function getHabilidades() {
   ];
 
   const futureSkills = [
-    {imgSrc: "./assets/icons/react.webp", alt: "Logo de React", text: "React"},
     {imgSrc: "./assets/icons/python.webp", alt: "Logo de Python", text: "Python"}
   ];
 
