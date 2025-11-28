@@ -19,7 +19,7 @@ export function getProyectosAcademicos() {
   academicProjectsGallery.classList.add("academic-projects-gallery");
 
   const ScreenShots = [
-    {img: "./assets/projects/comiquea.webp", title: `Comiquea.
+    {img: "./assets/projects/comiquea.webp", title: `Comiquea
       Web de cómics`, text: `La web es un organizador de lectura de cómics, con registro y login de usuarios que podrán dejar opiniones de cada cómic, crear listas de sus cómics favoritos, los que tienen, los leídos, los que quieren comprar... Además, también sirve como enciclopedia de cómics, ya que utiliza una base de datos cuya información crece de forma orgánica gracias a los aportes de los propios usuarios, quienes pueden añadir nuevos cómics y modificar los datos de los ya existentes.
 
       Frontend: HTML, CSS, React y JavaScript.
