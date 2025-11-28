@@ -76,6 +76,7 @@ border-radius: 20px;
   color: var(--second-color);
   font-size: 1.1rem;
   line-height: 1.6;
+  white-space: pre-line;
 }
 
 @media (max-width: 910px) {
