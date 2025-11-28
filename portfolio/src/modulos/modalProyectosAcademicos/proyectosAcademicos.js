@@ -19,6 +19,11 @@ export function getProyectosAcademicos() {
   academicProjectsGallery.classList.add("academic-projects-gallery");
 
   const ScreenShots = [
+    {img: "./assets/projects/splishsplash.webp", title: "Evento Splish Splash Cádiz", text: `Web que simula un evento de verano con diferentes actividades de playa. Incluye registro y login de usuarios, conexión a una base de datos que guarda las actividades a las que los usuarios pueden apuntarse, galería de fotos con Cloudinary y un formulario para que los administradores puedan crear nuevas actividades.
+
+      Tecnologías utilizadas:
+      Frontend con HTML, CSS y JavaScript Vanilla.
+      Backend con Node.js, Express y MongoDB Atlas.`, alt: "Previsualización del proyecto Enciclopedia Marvel.", link: "https://splish-splash-cadiz.vercel.app/"},
     {img: "./assets/projects/comiquea.webp", title: `Comiquea
       Web de cómics`, text: `La web es un organizador de lectura de cómics, con registro y login de usuarios que podrán dejar opiniones de cada cómic, crear listas de sus cómics favoritos, los que tienen, los leídos, los que quieren comprar... Además, también sirve como enciclopedia de cómics, ya que utiliza una base de datos cuya información crece de forma orgánica gracias a los aportes de los propios usuarios, quienes pueden añadir nuevos cómics y modificar los datos de los ya existentes.
 
@@ -26,8 +31,10 @@ export function getProyectosAcademicos() {
       Backend: Node.js, Express y MongoDB Atlas.`, alt: "Previsualizacion del proyecto Comiquea, la web de cómics.", link: "https://comiquea.vercel.app/"},
     {img: "./assets/projects/tvstars.webp", title: `Juego de cartas
       TV STARS Battle Cards`, text: `Videojuego de cartas que combina combate y estrategia mediante un sistema de comparación de ataque y defensa para decidir qué jugador conquista cada casilla del tablero. Incluye ilustraciones de personajes famosos y un diseño propio de cartas realizado en Canva.
+
       Tecnologías utilizadas: HTML, CSS, React y JavaScript.`, alt: "Previsualizacion del proyecto Juego de cartas TV STARS Battle Cards.", link: "https://tvstarsbattle.vercel.app/"},
     {img: "./assets/projects/enciclopedia-marvel.webp", title: "Enciclopedia Marvel", text: `Enciclopedia interactiva de personajes Marvel, con filtros de búsqueda por categorías y ventanas emergentes para mostrar información más detallada de cada uno.
+
       Tecnologías utilizadas: HTML, CSS y JavaScript Vanilla.`, alt: "Previsualización del proyecto Enciclopedia Marvel.", link: "https://enciclopediamarvel.netlify.app/"}
   ]
 
