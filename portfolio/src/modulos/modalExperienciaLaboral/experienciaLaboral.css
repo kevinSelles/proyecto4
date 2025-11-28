@@ -1,31 +1,31 @@
-.experiencia-laboral-content {
+.job-projects-content {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
   width: 100%;
   box-sizing: border-box;
-  padding: 20px 20px;
+  padding: 20px 10px;
 }
 
-.experiencia-laboral-content img {
+.job-projects-content img {
   max-width: 300px;
   height: auto;
   display: block;
+  border-radius: 50px;
 }
 
-.experiencia-laboral-main {
+.job-projects-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
   flex: 1;
   text-align: center;
-  overflow-y: auto;
   max-height: calc(80vh - 40px);
-  padding-right: 10px;
+  overflow-y: auto;
 }
 
-.experiencia-laboral-main h2 {
+.job-projects-container h2 {
   font-family: var(--font-title);
   font-size: var(--size-large);
   color: var(--first-color);
@@ -33,67 +33,118 @@
   letter-spacing: 5px;
 }
 
-.experiencia-laboral-main p {
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.5;
-  font-size: 1.1rem;
+.job-projects-gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-@media (max-width: 990px) {
+.job-projects-gallery div {
+  margin: var(--size-medium);
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(90deg, #0b54ff, #0d0081, #0b54ff);
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
 
-  .experiencia-laboral-content img {
+.job-projects-gallery div:hover {
+  transform: scale(1.05);
+}
+
+.job-projects-gallery > div > h3{
+  color: var(--second-color);
+  font-size: 2rem;
+  white-space: pre-line;
+}
+
+.job-projects-gallery > div > img {
+cursor: pointer;
+max-width: none;
+width: 80%;
+margin-top: 0.7rem;
+border-radius: 20px;
+}
+
+.job-projects-gallery > div > p {
+  gap: 0.8rem;
+  margin: var(--size-small) 0rem;
+  color: var(--second-color);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+@media (max-width: 910px) {
+
+  .job-projects-content img {
     max-width: 250px;
   }
-}
 
-@media (max-width: 783px) {
-
-  .experiencia-laboral-content img {
-    max-width: 200px;
+  .job-projects-content {
+    gap: 0;
+    padding: 20px 10px 20px 0;
   }
 
-  .experiencia-laboral-main h2 {
+  .job-projects-gallery > div > img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+}
+
+@media (max-width: 795px) {
+
+  .job-projects-container h2 {
     font-size: 2rem;
   }
 
-  .experiencia-laboral-main p {
-    font-size: var(--size-small);
+  .job-projects-gallery > div > h3 {
+    font-size: var(--size-medium);
   }
 
-  .experiencia-laboral-content {
-    padding: 20px 10px 20px 0;
-    gap: 20px
+  .job-projects-gallery > div > p {
+    font-size: var(--size-small);
   }
 }
 
-@media (max-width: 633px) {
+@media (max-width: 680px) {
 
-  .experiencia-laboral-content img {
-    max-width: 170px;
+  .job-projects-content img {
+    max-width: 200px;
   }
 
-  .experiencia-laboral-main h2 {
-    font-size: 1.7rem;
+  .job-projects-gallery > div > h3 {
+    font-size: 1.2rem;
   }
 
-  .experiencia-laboral-main p {
+  .job-projects-gallery > div > p {
     font-size: 0.8rem;
   }
 
-  .experiencia-laboral-content {
-    padding: 20px 10px 20px 0;
-    gap: 10px
+  .job-projects-gallery div {
+    margin: 0.7rem;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 585px) {
 
-  .experiencia-laboral-content {
+  .job-projects-content {
     flex-direction: column;
+    overflow-y: auto;
   }
 
-  .experiencia-laboral-main {
-    padding: 0;
+   .job-projects-content img {
+    max-width: 170px;
+    margin-bottom: var(--size-small);
+  }
+
+  .job-projects-container {
+    overflow: visible;
   }
 }
