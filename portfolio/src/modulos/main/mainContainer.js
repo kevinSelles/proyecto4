@@ -14,10 +14,12 @@ export function getMain(avatarImg) {
   
   const sections = [
     {text: "Proyectos académicos", imgSrc: "./assets/avatar-photos/proyectos-academicos.webp"},
+    {text: "Titulación", imgSrc: "./assets/avatar-photos/graduado.webp"},
     {text: "Experiencia laboral", imgSrc: "./assets/avatar-photos/experiencia-laboral.webp"},
     {text: "Creador de contenido", imgSrc: "./assets/avatar-photos/creador-contenido.webp"},
     {text: "Sobre mí", imgSrc: "./assets/avatar-photos/sobre-mi.webp"},
     {text: "Habilidades", imgSrc: "./assets/avatar-photos/habilidades.webp"},
+    {text: "Descargar CV", imgSrc: "./assets/avatar-photos/curriculum.webp"},
     {text: "Contacto", imgSrc: "./assets/avatar-photos/contacto.webp"}
   ];
 
