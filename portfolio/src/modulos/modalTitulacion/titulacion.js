@@ -16,7 +16,7 @@ export function getTitulacion() {
   title.textContent = "Títulos";
 
   const titulacionGallery = document.createElement("div");
-  academicProjectsGallery.classList.add("titulacion-gallery");
+  titulacionGallery.classList.add("titulacion-gallery");
 
   const ScreenShots = [
     {img: "./assets/titles/frontend.webp", title: "Desarrollador Frontend", text: "Título que acredita mi formación de HTML, CSS, JavaScript y Vite en la escuela The Power, respaldado por la UCAM (Universidad Católica de Murcia). ", alt: "Previsualización del título de Desarrollador Frontend.", link: "https://splish-splash-cadiz.vercel.app/"},
