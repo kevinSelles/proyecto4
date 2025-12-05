@@ -1,9 +1,9 @@
-import "./proyectosAcademicos.css";
+import "./titulacion.css";
 
 export function getTitulacion() {
   
   const container = document.createElement("div");
-  container.classList.add("titulacion");
+  container.classList.add("titulacion-content");
 
   const img = document.createElement("img");
   img.src = "./assets/avatar-photos/graduado.webp";

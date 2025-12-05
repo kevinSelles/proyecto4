@@ -7,6 +7,7 @@ import { getProyectosAcademicos } from "../modalProyectosAcademicos/proyectosAca
 import { getCreadorContenido } from "../modalCreadorContenidos/creadorContenidos";
 import { getHabilidades } from "../modalHabilidades/habilidades";
 import { getExperienciaLaboral } from "../modalExperienciaLaboral/experienciaLaboral";
+import { getTitulacion } from "../modalTitulacion/titulacion";
 
 export function getMain(avatarImg) {
 
@@ -61,6 +62,8 @@ export function getMain(avatarImg) {
   button.addEventListener("click", () => {
   if (sections[i].text === "Proyectos académicos") {
     getModal(getProyectosAcademicos());
+  } else if (sections[i].text === "Titulación") {
+    getModal(getTitulacion());
   } else if (sections[i].text === "Creador de contenido") {
     getModal(getCreadorContenido());
   } else if (sections[i].text === "Sobre mí") {

@@ -1,0 +1,150 @@
+.titulacion-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 10px;
+}
+
+.titulacion-content img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 50px;
+}
+
+.titulacion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+  text-align: center;
+  max-height: calc(80vh - 40px);
+  overflow-y: auto;
+}
+
+.titulacion-container h2 {
+  font-family: var(--font-title);
+  font-size: var(--size-large);
+  color: var(--first-color);
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+.titulacion-gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulacion-gallery div {
+  margin: var(--size-medium);
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(90deg, #0b54ff, #0d0081, #0b54ff);
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.titulacion-gallery div:hover {
+  transform: scale(1.05);
+}
+
+.titulacion-gallery > div > h3{
+  color: var(--second-color);
+  font-size: 2rem;
+  white-space: pre-line;
+}
+
+.titulacion-gallery > div > img {
+cursor: pointer;
+max-width: none;
+width: 80%;
+margin-top: 0.7rem;
+border-radius: 20px;
+}
+
+.titulacion-gallery > div > p {
+  gap: 0.8rem;
+  margin: var(--size-small) 0rem;
+  color: var(--second-color);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+@media (max-width: 910px) {
+
+  .titulacion-content img {
+    max-width: 250px;
+  }
+
+  .titulacion-content {
+    gap: 0;
+    padding: 20px 10px 20px 0;
+  }
+
+  .titulacion-gallery > div > img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+}
+
+@media (max-width: 795px) {
+
+  .titulacion-container h2 {
+    font-size: 2rem;
+  }
+
+  .titulacion-gallery > div > h3 {
+    font-size: var(--size-medium);
+  }
+
+  .titulacion-gallery > div > p {
+    font-size: var(--size-small);
+  }
+}
+
+@media (max-width: 680px) {
+
+  .titulacion-content img {
+    max-width: 200px;
+  }
+
+  .titulacion-gallery > div > h3 {
+    font-size: 1.2rem;
+  }
+
+  .titulacion-gallery > div > p {
+    font-size: 0.8rem;
+  }
+
+  .titulacion-gallery div {
+    margin: 0.7rem;
+  }
+}
+
+@media (max-width: 585px) {
+
+  .titulacion-content {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+   .titulacion-content img {
+    max-width: 170px;
+    margin-bottom: var(--size-small);
+  }
+
+  .titulacion-container {
+    overflow: visible;
+  }
+}
