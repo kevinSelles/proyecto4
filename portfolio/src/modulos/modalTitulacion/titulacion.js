@@ -13,7 +13,7 @@ export function getTitulacion() {
   mainContainer.classList.add("titulacion-container");
 
   const title = document.createElement("h2");
-  title.textContent = "Títulos";
+  title.textContent = "Formación académica";
 
   const titulacionGallery = document.createElement("div");
   titulacionGallery.classList.add("titulacion-gallery");

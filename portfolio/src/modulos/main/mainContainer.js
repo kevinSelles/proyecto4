@@ -15,7 +15,7 @@ export function getMain(avatarImg) {
   
   const sections = [
     {text: "Proyectos académicos", imgSrc: "./assets/avatar-photos/proyectos-academicos.webp"},
-    {text: "Formación Académica", imgSrc: "./assets/avatar-photos/graduado.webp"},
+    {text: "Formación académica", imgSrc: "./assets/avatar-photos/graduado.webp"},
     {text: "Experiencia laboral", imgSrc: "./assets/avatar-photos/experiencia-laboral.webp"},
     {text: "Creador de contenido", imgSrc: "./assets/avatar-photos/creador-contenido.webp"},
     {text: "Sobre mí", imgSrc: "./assets/avatar-photos/sobre-mi.webp"},
@@ -62,7 +62,7 @@ export function getMain(avatarImg) {
   button.addEventListener("click", () => {
   if (sections[i].text === "Proyectos académicos") {
     getModal(getProyectosAcademicos());
-  } else if (sections[i].text === "Formación Académica") {
+  } else if (sections[i].text === "Formación académica") {
     getModal(getTitulacion());
   } else if (sections[i].text === "Creador de contenido") {
     getModal(getCreadorContenido());
