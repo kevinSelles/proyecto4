@@ -19,7 +19,7 @@ export function getTitulacion() {
   titulacionGallery.classList.add("titulacion-gallery");
 
   const ScreenShots = [
-    {img: "./assets/titles/frontend.webp", title: "Desarrollador Frontend", text: "Certificación en desarrollo Frontend (HTML, CSS, JavaScript y Vite) cursada en la escuela The Power y con titulación avalada por la UCAM (Universidad Católica de Murcia).", alt: "Previsualización del título de Desarrollador Frontend.", link: ""},
+    {img: "https://storage.googleapis.com/verified-storage/cert/34362781302808.png", title: "Desarrollador Frontend", text: "Certificación en desarrollo Frontend (HTML, CSS, JavaScript y Vite) cursada en la escuela The Power y con titulación avalada por la UCAM (Universidad Católica de Murcia).", alt: "Previsualización del título de Desarrollador Frontend.", link: "https://verified.sertifier.com/es/verify/34362781302808/"},
     {img: "https://storage.googleapis.com/verified-storage/cert/26607474659735.png", title: "Desarrollador Backend", text: "Certificación en desarrollo Backend (Node, NoSQL y APIs con Express) cursada en la escuela The Power y con titulación avalada por la UCAM (Universidad Católica de Murcia). ", alt: "Previsualización del título de Desarrollador Backend.", link: "https://verified.sertifier.com/es/verify/26607474659735/?ref=email"}
   ]
 
