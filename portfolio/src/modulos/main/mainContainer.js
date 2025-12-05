@@ -39,7 +39,7 @@ export function getMain(avatarImg) {
     const button = getMainButtons(sections[i].text);
     section.appendChild(button);
 
-    if(i < 3) {
+    if(i < 4) {
     buttonsLeft.appendChild(section);
     } else {
       buttonsRight.appendChild(section);
