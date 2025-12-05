@@ -23,7 +23,7 @@ export function getMain(avatarImg) {
     {text: "Contacto", imgSrc: "./assets/avatar-photos/contacto.webp"}
   ];
 
-  const clases = ["proyectos-academicos", "creador-de-contenido", "experiencia-laboral", "sobre-mi", "habilidades", "contacto"];
+  const clases = ["proyectos-academicos", "creador-de-contenido", "experiencia-laboral", "sobre-mi", "habilidades", "contacto", "titulacion", "cv"];
   const defaultAvatarSrc = avatarImg.src;
 
   const buttonsLeft = document.createElement("div");
