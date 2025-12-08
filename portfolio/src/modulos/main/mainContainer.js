@@ -74,9 +74,15 @@ export function getMain(avatarImg) {
     getModal(getHabilidades());
   } else if (sections[i].text === "Experiencia laboral") {
     getModal(getExperienciaLaboral());
+  } else if (sections[i].text === "Descargar CV") {
+    const a = document.createElement("a");
+    a.href = "./assets/download/CV-Kevin-Selles.pdf";
+    a.download = "CV-Kevin-Selles.pdf";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
   }
 });
-
 }
 
   const imgContainer = document.createElement("div");
